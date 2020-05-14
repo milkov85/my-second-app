@@ -72,18 +72,6 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "2mb",
-                  "maximumError": "5mb"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "6kb",
-                  "maximumError": "10kb"
-                }
-              ]
             }
           }
         },
@@ -95,6 +83,9 @@
           "configurations": {
             "production": {
               "browserTarget": "my-second-app:build:production"
+            },
+            "stag": {
+              "browserTarget": "my-second-app:build:stag"
             }
           }
         },
