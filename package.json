@@ -25,7 +25,7 @@
     "rxjs": "~6.5.4",
     "rxjs-compat": "^6.0.0",
     "set-value": ">=4.0.1",
-    "socket.io-parser": ">=3.3.2",
+    "socket.io-parser": ">=4.2.1",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
